@@ -1,0 +1,97 @@
+:root{
+    --body-background-color: #f5f6f7;
+    --font-color: #4e4e4e;
+    --border-gray-color : #dadada;
+    --easylogin-blue-color: #4B89DC;
+    --easylogin-blue-border-color : #546570;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:var(--body-background-color);
+}
+.main-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21px;
+}
+.main-container .main-wrap{
+    width:768px;
+}
+.main-container .main-wrap .logo-wrap{
+    padding-top: 55px;
+}
+.main-container .main-wrap .logo-wrap image{
+    width: 231px;
+    height: 44px;
+}
+.Easy-sign-in-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.Easy-sign-in-wrap h2{
+    font-size: 20px;
+}
+.Easy-sign-in-wrap .sign-button{
+    padding-top: 25px;
+    list-style: none;
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Easy-sign-in-wrap .sign-button li{
+    padding-bottom: 10px;
+}
+.Easy-sign-in-wrap .sign-button li button{
+    width: 465px;
+    height: 56px;
+    border: solid 1px var(--border-gray-color);
+    text-align: left;
+    background: white;
+}
+.Easy-sign-in-wrap .sign-button li button i{
+    padding-left: 15px;
+    font-size : 20px;
+}
+.fa-qrcode{
+    color:var(--easylogin-blue-color)
+}
+.Easy-sign-in-wrap .sign-button li button span{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.Easy-sign-in-wrap .forget-msg{
+    color:var(--font-color);
+    font-size: 14px;
+    padding-top: 10px;
+}
+footer{
+	padding-top: 95px;
+	padding-bottom: 15px;
+
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:768px;
+}
+.copyright-wrap{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 15px;
+}
+footer .copyright-wrap span image_file{
+	width: 59px;
+	height: 11px;
+}
+footer .copyright-wrap span{
+	font-size: 13px;
+	line-height: 15px;
+}
