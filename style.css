@@ -25,9 +25,14 @@ body{
 .main-container .main-wrap .logo-wrap{
     padding-top: 55px;
 }
-.main-container .main-wrap .logo-wrap image{
-    width: 231px;
-    height: 44px;
+.main-container .main-wrap .logo-wrap img{
+    width: 300px;
+    height: 64px;
+}
+.main-container .main-wrap header .logo-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Easy-sign-in-wrap{
     display: flex;
@@ -56,12 +61,9 @@ body{
     text-align: left;
     background: white;
 }
-.Easy-sign-in-wrap .sign-button li button i{
-    padding-left: 15px;
-    font-size : 20px;
-}
-.fa-qrcode{
-    color:var(--easylogin-blue-color)
+.Easy-sign-in-wrap .sign-button li button img{
+    width: 20px;
+    height: 20px;
 }
 .Easy-sign-in-wrap .sign-button li button span{
     padding-left: 20px;
@@ -75,7 +77,6 @@ body{
 footer{
 	padding-top: 95px;
 	padding-bottom: 15px;
-
 	display:flex;
 	flex-direction:column;
 	align-items:center;
@@ -87,7 +88,7 @@ footer{
 	align-items: center;
 	height: 15px;
 }
-footer .copyright-wrap span image_file{
+footer .copyright-wrap span img{
 	width: 59px;
 	height: 11px;
 }
